@@ -171,7 +171,7 @@ transition: all 2s ease-in-out;}
   bottom:20px;
 }
 #dd1, #dd2, #dd3, #dd4, #dd5, #dd6, #dd7, #dd8 {
-color: #99cdff;
+color:black;
 	width:20px;
   height:20px;
   -webkit-border-radius:10px;
@@ -180,7 +180,7 @@ color: #99cdff;
   position:absolute;
   top:200px;
   left:250px;
-  background-color:black;
+  background-color:#ecc6bc;
   -webkit-transition: all 2s ease-in-out;
 -moz-transition: all 2s ease-in-out;
 -o-transition: all 2s ease-in-out;
