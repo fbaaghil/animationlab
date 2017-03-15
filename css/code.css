@@ -307,6 +307,9 @@ transform: translate(-250px,0);}
 
 /*two*/
 
+#twotext{font-family: 'Open Sans', sans-serif;font-size: 14px;}
+
+
 #delay_demo2 {
   position:relative;
   width:500px;
