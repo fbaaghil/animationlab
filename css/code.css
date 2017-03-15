@@ -307,6 +307,32 @@ transform: translate(-250px,0);}
 
 /*two*/
 
+#delay_demo2 {
+  position:relative;
+  width:500px;
+  height:400px;
+  margin:0 auto 10px;
+  border:1px #aaa solid;
+  padding:10px;
+}
+#delay_demo2 div {
+  width:100px;
+  height:100px;
+  position:absolute;
+  top:160px;
+  left:210px;
+
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  text-align:center;
+}
+#delay_demo2 div p {
+  line-height:70px;
+  color:white;
+  font-weight:bold;
+}
+
 #dd_main2 {
   z-index:10;
   background-color:#ecc6bc;
