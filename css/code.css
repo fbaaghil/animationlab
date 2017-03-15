@@ -307,23 +307,78 @@ transform: translate(-250px,0);}
 
 /*two*/
 
-.antwo {
-  animation-duration: 5s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
+#dd_main2 {
+  z-index:10;
+  background-color:#ecc6bc;
+  -webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;}
+#dd_main2a {
+  z-index:9;
+  background-color:#ecc6bc;
+  -webkit-transition-property: top, left;
+-moz-transition-property: top, left;
+-o-transition-property: top, left;
+-ms-transition-property: top, left;
+transition-property: top, left;  -webkit-transition-duration: 1s, 1s;
+-moz-transition-duration: 1s, 1s;
+-o-transition-duration: 1s, 1s;
+-ms-transition-duration: 1s, 1s;
+transition-duration: 1s, 1s;  -webkit-transition-delay: 0s, 1s;
+-moz-transition-delay: 0s, 1s;
+-o-transition-delay: 0s, 1s;
+-ms-transition-delay: 0s, 1s;
+transition-delay: 0s, 1s;}
 
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+#dd_main2b {
+  z-index:8;
+  background-color:#ecc6bc;
+  -webkit-transition-property: top, left, border-radius, background-color;
+-moz-transition-property: top, left, border-radius, background-color;
+-o-transition-property: top, left, border-radius, background-color;
+-ms-transition-property: top, left, border-radius, background-color;
+transition-property: top, left, border-radius, background-color;  -webkit-transition-duration: 2s, 1s, 0.5s, 0.5s;
+-moz-transition-duration: 2s, 1s, 0.5s, 0.5s;
+-o-transition-duration: 2s, 1s, 0.5s, 0.5s;
+-ms-transition-duration: 2s, 1s, 0.5s, 0.5s;
+transition-duration: 2s, 1s, 0.5s, 0.5s;  -webkit-transition-delay: 0s, 0.5s, 1s, 1.5s;
+-moz-transition-delay: 0s, 0.5s, 1s, 1.5s;
+-o-transition-delay: 0s, 0.5s, 1s, 1.5s;
+-ms-transition-delay: 0s, 0.5s, 1s, 1.5s;
+transition-delay: 0s, 0.5s, 1s, 1.5s;}
+#delay_demo2 .center {
+  width:500px;
+  position:absolute;
+  bottom:20px;
 }
+#delay_demo2:hover #dd_main2, #delay_demo2.hover_effect #dd_main2 {
+  top:0px;
+  left:0px;
+}
+#delay_demo2:hover #dd_main2a, #delay_demo2.hover_effect #dd_main2a {
+  top:320px;
+  left:420px;
+}
+#delay_demo2:hover #dd_main2b, #delay_demo2.hover_effect #dd_main2b {
+  top:0px;
+  left:420px;
+  border-radius: 0;
+  background-color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
